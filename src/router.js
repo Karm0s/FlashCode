@@ -3,6 +3,7 @@ import Router from "vue-router";
 
 // importing routes
 import HomePage from "./pages/HomePage.vue";
+import DragAndDropPage from "./pages/DragAndDropPage.vue";
 
 Vue.use(Router);
 
@@ -14,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: HomePage
+    },
+    {
+      path: '/dragndrop',
+      name: 'DragAndDrop',
+      component: DragAndDropPage
     }
   ]
 });

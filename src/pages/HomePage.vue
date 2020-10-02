@@ -1,10 +1,6 @@
 <template>
   <div id="home-page">
-    <nav class="flex justify-center">
-      <div>
-        <h1 class="text-3xl text-gray-900 title tracking-tight">Flash <span class="fas fa-bolt"></span> Code</h1>
-      </div>
-    </nav>
+    <Header/>
 
     <div class="flex flex-col items-start mx-10 mt-20">
       <h1 class="text-xl text-gray-900 title tracking-tight">Components:</h1>
@@ -19,13 +15,15 @@
 </template>
 
 <script>
+import Header from "../components/layout/Header";
+
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+  components: {
+    Header
+  }
 }
 </script>
 
 <style scoped>
-.title{
-  font-weight: 500;
-}
 </style>
