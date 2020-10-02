@@ -33,7 +33,8 @@ export default {
       let droppedFiles = e.dataTransfer.files;
       if (!droppedFiles) return;
       this.file = droppedFiles[0];
-      console.log(this.file);
+      alert(`File Name: ${this.file.name}`);
+      this.fileOverDropArea = false;
     },
   }
 };
