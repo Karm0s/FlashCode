@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="antialiased">
+  <div id="app" class="antialiased mx-10 my-10">
     <router-view></router-view>
   </div>
 </template>
@@ -15,11 +15,11 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Fira Code', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 </style>
