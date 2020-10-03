@@ -9,7 +9,7 @@ Vue.use(Router);
 
 export default new Router({
   mode: 'history',
-  base: process.env.PUBLIC_PATH || '/',
+  base: '/FlashCode/',
   routes: [
     {
       path: '/',
