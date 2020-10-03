@@ -7,7 +7,8 @@
 
       <li class="ml-10 mt-5">
         <ul>
-          <a href="/dragndrop" class="text-lg hover:underline">Drag n Drop <span class="fas fa-arrow-right"></span> </a>
+          <router-link to="/dragndrop" class="text-lg hover:underline">Drag n Drop <span class="fas fa-arrow-right"></span> </router-link>
+          <!-- <a href="/dragndrop" class="text-lg hover:underline">Drag n Drop <span class="fas fa-arrow-right"></span> </a> -->
         </ul>
       </li>
     </div>
