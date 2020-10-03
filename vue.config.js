@@ -1,3 +1,6 @@
 module.exports = {
-  publicPath: '/FlashCode/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? 'https://karm0s.github.io/FlashCode'
+    :  '/FlashCode'
+
 }
