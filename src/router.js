@@ -4,6 +4,7 @@ import Router from "vue-router";
 // importing routes
 import HomePage from "./pages/HomePage.vue";
 import DragAndDropPage from "./pages/DragAndDropPage.vue";
+import FloatingActionButtonPage from "./pages/FloatingActionButtonPage.vue";
 
 Vue.use(Router);
 
@@ -20,6 +21,11 @@ export default new Router({
       path: '/dragndrop',
       name: 'DragAndDrop',
       component: DragAndDropPage
+    },
+    {
+      path: '/actionbutton',
+      name: 'FloatingActionButton',
+      component: FloatingActionButtonPage
     }
   ]
 });
